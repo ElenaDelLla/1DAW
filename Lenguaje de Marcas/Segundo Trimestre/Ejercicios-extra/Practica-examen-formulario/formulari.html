@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <form action="manda.php" method="post">
+        <label for="no" class="negri">Nombre</label>
+        <input
+          type="text"
+          name="nombre"
+          id="no"
+          placeholder="Escibe tu nombre"
+          maxlength="30"
+        />
+
+        <label for="em" class="negri">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="em"
+          placeholder="correo@empresa.com"
+          required
+        />
+
+        <label for="as">Asunto</label>
+        <select name="asunto" id="as" size="3">
+          <option value="presupuesto">Pedir presupuesto</option>
+          <option value="cita">Pedir cita previa</option>
+          <option value="otro">Otros</option>
+        </select>
+
+        <lavel >¿Cómo nos has conocido?</lavel>
+        <div class="row wrap">
+          <input type="checkbox" name="amigo" id="am" />
+          <label for="am">Amigo</label>
+
+          <input type="checkbox" name="google" id="go" />
+          <label for="go">Googleando</label>
+
+          <input type="checkbox" name="buzon" id="bu" />
+          <label for="bu">Buzoneo</label>
+
+          <input type="checkbox" name="otros" id="ot" />
+          <label for="ot">Otros</label>
+        </div>
+
+        <label for="et" class="negri">Escribe tu mensaje</label>
+        <textarea name="mensaje" id="et" maxlength="300"></textarea>
+
+        <div class="row">
+          <input type="checkbox" name="aviso legal" id="av" required />
+          <label for="av">He leído y acepto
+            <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">
+              el aviso legal y la política de privadidad.</a
+            ></label
+          >
+        </div>
+        <span><mark>@FrancescRicart</mark></span>
+      </form>
+    </main>
+  </body>
+</html>

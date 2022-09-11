@@ -1,0 +1,46 @@
+span{
+		color: blue;
+	}
+
+h2{
+	border-bottom: 2px solid grey;
+}
+
+.salto {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+
+	main{
+		display: flex;
+		flex-direction: row;
+	}
+	h2{
+		border: none;
+	}
+	
+	
+	
+	
+
+}
+
+@media screen and (min-width: 1200px){
+
+	main, .fila{
+		display: flex;
+		flex-direction: row;
+	}
+	h2{
+		border: none;
+	}
+	.salto {
+		flex-direction: row;
+	}
+
+}

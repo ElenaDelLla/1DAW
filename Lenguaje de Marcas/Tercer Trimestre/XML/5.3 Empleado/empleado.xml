@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<empleado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="esquema1.xsd">
+    <nombre código="AXL43">Sergio</nombre>
+    <puesto>Atención al cliente</puesto>
+    <extensión>345</extensión>
+</empleado>

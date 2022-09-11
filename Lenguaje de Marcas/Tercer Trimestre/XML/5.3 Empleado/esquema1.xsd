@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:element name="empleado" type="EmpleadoTipo"></xs:element>
+    <xs:complexType name="EmpleadoTipo">
+        <xs:sequence>
+            <xs:element name="nombre" type="NombreTipo" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="puesto" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="extensión" type="ExtensionTipo" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+                    
+    <xs:complexType name="NombreTipo">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="código" type="codigoTipo"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:simpleType name="codigoTipo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z][A-Z][A-Z][0-9][0-9]"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ExtensionTipo">
+        <xs:restriction base="xs:integer">
+            <xs:totalDigits value="3"></xs:totalDigits>
+        </xs:restriction>  
+    </xs:simpleType>
+    
+</xs:schema>
+ 

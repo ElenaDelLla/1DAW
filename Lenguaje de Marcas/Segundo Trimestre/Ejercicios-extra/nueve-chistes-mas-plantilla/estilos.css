@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans&display=swap');
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #CB8A64;
+	margin: 0px;
+	margin-top: 30px;
+	border: 30px solid #63AACC;
+	padding: 20px;
+	
+}
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	background-color: #337699;
+	padding: 5px;
+
+	color: white;
+}
+section{
+	width: 300px;
+	padding: 20px;
+	height: fit-content;
+	border-right: 5px solid #995433;
+
+}
+h1,h2{
+	margin: 0px;
+	margin-bottom: 5px;
+}
+.chiste{
+	border: 5px outset #63AACC;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.sangria{
+	margin-left: 20px;
+}
+

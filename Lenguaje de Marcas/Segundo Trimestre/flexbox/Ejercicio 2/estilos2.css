@@ -1,0 +1,22 @@
+body{
+	background-color: grey;
+}
+.color{
+	background-color: #C2C2C2;
+	border: 10px solid white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+a{
+	text-decoration: none;
+}
+li:hover{
+	background-color: #F4B25C;
+}
+li{
+	list-style: none;
+	padding: 5px;
+}

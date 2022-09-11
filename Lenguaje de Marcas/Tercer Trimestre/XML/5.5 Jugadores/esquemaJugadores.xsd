@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <xs:element name="equipos" type="tipoEquipos"></xs:element>
+
+    <xs:complexType name="tipoEquipos">
+        <xs:sequence>
+            <xs:element name="equipo" type="tipoEquipo" maxOccurs="1"></xs:element>
+        </xs:sequence>
+        
+    </xs:complexType>
+
+    <xs:complexType name="tipoEquipo">
+        <xs:sequence>
+            <xs:element name="jugadores" type="tipoJugadores" maxOccurs="1"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="nombreEq" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="tipoJugadores">
+        <xs:sequence>
+            <xs:element name="jugador" minOccurs="1" maxOccurs="unbounded" type="tipoJugador"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="tipoJugador">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"></xs:element>
+            <xs:element name="fechaNacimiento" type="xs:date"></xs:element>
+            <xs:element name="altura" type="xs:integer"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="numero" use="required" type="xs:integer"></xs:attribute>
+    </xs:complexType>
+
+
+
+</xs:schema>

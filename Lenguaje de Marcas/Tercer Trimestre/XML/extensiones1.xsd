@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified"
+ elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+ <xs:element name="talla" type="tallaCamiseta"></xs:element>
+    <xs:simpleType name="tallaCamiseta">
+        <xs:restriction base="xs:string">
+        <xs:enumeration value="S"></xs:enumeration>
+        <xs:enumeration value="M"></xs:enumeration>
+        <xs:enumeration value="L"></xs:enumeration>
+        <xs:enumeration value="XL"></xs:enumeration>
+        <xs:enumeration value="XXl"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

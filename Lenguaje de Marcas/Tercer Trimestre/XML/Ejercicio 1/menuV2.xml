@@ -1,0 +1,33 @@
+
+
+<menu>
+<DesayunoOpcion1>
+    <desayuno id="nombre">Gofres Belgas</desayuno>
+    <desayuno id="precio">5,95</desayuno>
+    <desayuno id="descripcion">Dos de nuestros famosos Gofres Belgas con sirope</desayuno>
+    <desayuno id="calorias">650</desayuno>
+
+</DesayunoOpcion1>
+<DesayunoOpcion2>
+    <desayuno id="nombre">Gofres Belgas con fresas</desayuno>
+    <desayuno id="precio">7,95</desayuno>
+    <desayuno id="descripcion">Ligeros gofres belgas cubiertos de fresas y nata montada</desayuno>
+    <desayuno id="calorias">650</desayuno>
+
+</DesayunoOpcion2>
+<DesayunoOpcion3>
+    <desayuno id="nombre">Gofres Belgas con frutas del bosque</desayuno>
+    <desayuno id="precio">5,95</desayuno>
+    <desayuno id="descripcion">Dos de nuestros famosos Gofres Belgas con sirope</desayuno>
+    <desayuno id="calorias">650</desayuno>
+
+</DesayunoOpcion3>
+<DesayunoOpcion4>
+    <desayuno id="nombre">Pan tumaca</desayuno>
+    <desayuno id="precio">4,50</desayuno>
+    <desayuno id="descripcion">Dos revanadas de nuestro pan casero con aceite de oliva, tomate y ajo</desayuno>
+    <desayuno id="calorias">553</desayuno>
+
+</DesayunoOpcion4>
+
+</menu>

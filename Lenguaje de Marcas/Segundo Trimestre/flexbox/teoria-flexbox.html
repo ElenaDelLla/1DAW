@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport">
+<style>
+  .flex-contenedor {
+    background-color: green;
+    display: flex;
+    height: 600px;
+    
+   }
+/*.flex-contenedor {
+   background-color:green;
+   width:80%;
+   height:800px;
+   display: flex; para que no se mueva con el zoom*/
+   /*flex-wrap: wrap;para que se coloquen en multilinea */
+   
+   
+.flex-contenedor > div {
+  background-color: orange;
+  width:100px;
+  height:100px;
+  margin: 5px;
+  }
+
+p{
+  background-color: lightblue;
+  display: inline;
+}
+.uno{
+  flex-basis: 600px
+}
+
+.dos{
+  flex-grow:  2;
+}
+.tres{
+  flex-shrink:10;
+}
+
+</style>
+</head>
+<body>
+<h1>Flexbox</h1>
+
+<p>Ejemplo</p>
+<p>Ejemplo</p>
+<p>Ejemplo</p>
+
+<div class="flex-contenedor">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>   
+  <div class="uno">4</div> 
+  <div class="dos">5</div>
+  <div class="tres">6</div>   
+  <div>7</div>
+  <div>8</div>
+</div>
+
+<h4>Intenta cambiar el tamaño de la ventana.</h4>
+<h4>La propiedad <em> "flex-wrap: nowrap;"</em> no permitirá que se
+desborde el contenedor.</h4>
+<p><strong>Nota:</strong> Flexbox no es soportado por Internet
+Explorer 10 y versiones anteriores.</p>
+</body>
+</html>

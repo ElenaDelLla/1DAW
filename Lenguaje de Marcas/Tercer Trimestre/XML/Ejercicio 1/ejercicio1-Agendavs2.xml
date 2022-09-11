@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!--Agenda de teléfonos con modificadores-->
+
+<Agenda>
+    <nombre>Elena</nombre>
+    <apellido1>Coronado</apellido1>
+    <direccion tipo="calle">c/martes</direccion>
+    <direccion tipo="numero">13</direccion>
+    <direccion tipo="codigoPostal">123431</direccion>
+    <direccion tipo="provincia">Lugo</direccion>
+    <telefonos tipo="casa">123097641</telefonos>
+    <telefonos tipo="movil">619783401</telefonos>
+    <telefonos tipo="trabajo">999999999</telefonos>
+</Agenda>

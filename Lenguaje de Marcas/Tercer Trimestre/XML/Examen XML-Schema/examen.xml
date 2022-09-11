@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotecaMusical xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="esquemaExamen.xsd">
+    <partitura identificacion="JF012">
+        <titulo>Barbacola</titulo>
+        <compositor>
+            <nombre nacionalidad="ing">pepe</nombre>
+        </compositor>
+        <instrumento dificultad="2" nombre="flauta dulce"></instrumento>
+    </partitura>
+
+    <partitura identificacion="FK520">
+        <titulo>La Polonessa</titulo>
+        <compositor>
+            <nombre nacionalidad="ing">luis</nombre>
+        </compositor>
+        <instrumento dificultad="6" nombre="trompeta"></instrumento>
+    </partitura>
+
+</bibliotecaMusical>

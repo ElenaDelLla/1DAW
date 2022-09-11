@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<viaje_turistico>
+    <clientes>
+        <cliente>
+            <nombre></nombre>
+            <apellidos></apellidos>
+        </cliente>
+    </clientes>
+    <fechaInicio></fechaInicio>
+    <fechaFin></fechaFin>
+    <origen></origen>
+    <destinos>
+        <destino>
+            <ciudad></ciudad>
+            <hotel></hotel>
+            <numeroNoches></numeroNoches>
+        </destino>
+    </destinos>
+    <precioViaje></precioViaje>
+</viaje_turistico>

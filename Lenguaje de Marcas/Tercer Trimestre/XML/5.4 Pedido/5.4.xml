@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pedido xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="esquema_pedido.xsd">
+    <producto>
+        <lápiz>
+            <numero>1</numero>    
+        </lápiz>
+    </producto>
+    <producto>
+        <libro titulo="Hola"></libro>
+    </producto>
+    <producto>
+        <cuaderno num_hojas="3"></cuaderno>
+    </producto>
+</pedido>

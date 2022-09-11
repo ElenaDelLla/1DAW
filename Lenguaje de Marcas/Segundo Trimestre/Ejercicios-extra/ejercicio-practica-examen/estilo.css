@@ -1,0 +1,62 @@
+body{
+    background-image: url(estrellas.png);
+}
+
+h1{
+    text-align: center;
+    clear: both;
+}
+img{
+    float: right;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.hola{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+.contenedor1{
+    background-color: red;
+    color:black;
+
+    transition: background-color 1s ease-in 0.5s;
+}
+.contenedor1:hover{
+    background-color: wheat;
+    
+    transition: background-color 1s ease-in 0.5s;
+}
+.contenedor2{
+    background-color: cadetblue;
+    padding: 40px;
+    transition: background-color 1s ease-out 0.5s;
+}
+.contenedor2:hover{
+    background-color: rosybrown;
+    transition: background-color 1s ease-out 0.5s;
+
+}
+.contenedor2 > *{
+    margin-top: 10px;
+}
+.contenedor1 > *{
+
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}
+
+    

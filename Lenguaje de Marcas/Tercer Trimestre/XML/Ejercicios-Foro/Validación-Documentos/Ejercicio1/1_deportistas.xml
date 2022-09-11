@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas [
+<!ELEMENT deportistas (deportista*)>
+<!ELEMENT deportista (deporte,nombre,medallas?)>
+<!ELEMENT medallas (#PCDATA)>
+<!ELEMENT deporte (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre código ID #REQUIRED>
+
+]>
+<deportistas>
+  <deportista>
+    <deporte>Atletismo</deporte> 
+    <nombre código="B57">Jesse Owens</nombre>
+	</deportista>
+  <deportista>
+    <deporte>Natación</deporte> 
+    <nombre código="B19">Mark Spitz</nombre>
+  </deportista>
+  <deportista>
+    <deporte>Gimnasia artística</deporte> 
+    <nombre código="A41">Simon Biles</nombre>
+    <medallas>7</medallas>
+  </deportista>
+</deportistas>

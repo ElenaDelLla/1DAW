@@ -1,0 +1,35 @@
+leyes {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  margin-top: 15px;
+  width: 90%;
+}
+titulo {
+  display: none;
+}
+ley {
+  display: block;
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding: 10px;
+}
+tipo {
+  font-size: 35px;
+  display: block;
+  border-top: 5px solid blue;
+}
+ley::first-letter {
+  color: blue;
+}
+.diferente {
+  background-color: lavender;
+}
+.amarillo{
+    background-color: yellow;
+    text-transform: uppercase
+}
+
+

@@ -1,0 +1,14 @@
+table, td, th {
+	border: 2px solid goldenrod;
+	border-collapse: collapse;
+}
+tr:nth-child(even){
+	background-color: rgba(160, 199, 175, 1.0);
+}
+p:nth-child(even){
+	color: rebeccapurple;
+}
+.centrado{
+	text-align: center;
+	margin-top: 20px;
+}

@@ -1,0 +1,49 @@
+body {
+	font-size: 2rem;
+	background-color: #66C1CD;
+	margin-left: 170px;
+	margin-right: 170px;
+}
+h1 {
+	text-align: center;
+	color: #2B6E77;
+}
+a {
+	color: #CC8759;
+	font-weight: 900;
+}
+#centro{
+	text-align: center;
+}
+.marco{
+	border: 30px solid orange;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.marco_naranja {
+	border: 30px solid olive;
+	margin-bottom: 20px;
+	background-color: white;
+}
+img {
+	float: left;
+	margin-right: 20px;
+}
+h2 {
+	text-align: center;
+}
+.borde1{
+
+}
+.clear {
+	clear: right;
+}
+
+
+
+
+
+
+
+
+

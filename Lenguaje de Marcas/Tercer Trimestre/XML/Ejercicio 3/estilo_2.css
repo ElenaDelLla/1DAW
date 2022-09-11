@@ -1,0 +1,49 @@
+software-libre {
+  background-color: #fcc2cc;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+software-libre::before {
+  content: "Distribuciones de software libre";
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+distribuciones {
+  margin-top: 20px;
+  align-self: center;
+  display: table;
+  border-collapse: collapse;
+}
+distribucion {
+  display: table-row;
+  border-bottom: 1px solid black;
+}
+distribucion nombre,
+distribucion web,
+distribucion nacimiento {
+  display: table-cell;
+  padding: 10px;
+}
+escritorio {
+  display: list-item;
+  list-style: disc inside;
+  margin-bottom: 10px;
+}
+escritorio nacimiento::before {
+  content: "aparecio en ";
+}
+escritorio web::before {
+  content: "(";
+}
+escritorio web::after {
+  content: "),";
+}
+derivada {
+  display: none;
+}
+nombre {
+  font-weight: bold;
+}

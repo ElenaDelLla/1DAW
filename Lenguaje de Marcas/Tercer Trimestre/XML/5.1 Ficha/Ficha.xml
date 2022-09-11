@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fichas> xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="5.1.xsd">
+    <ficha>
+        <nombre>Elena</nombre>
+        <edad>20</edad>
+        <numero>6666666</numero>
+    </ficha>
+    <ficha>
+        <nombre>eeee</nombre>
+        <edad>2</edad>
+        <numero>33</numero>
+    </ficha>
+</fichas>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="envia.php" method="post">
+      <img src="w3schools.png" alt="logo" />
+      <h1>Formulario de prueba</h1>
+      <div>
+        <fieldset class="contenedor1">
+          <legend>Completar</legend>
+          <label for="co">Elija un color</label>
+          <input type="color" name="color" id="co" />
+          <br />
+
+          <textarea
+            name="text"
+            id="text"
+            cols="50"
+            rows="10"
+            placeholder="Por favor, escriba aquí"
+          ></textarea>
+          <br />
+
+          <select name="lenguaje">
+            <option value="java">Java</option>
+            <option value="phyton">Phyton</option>
+            <option value="C++">C++</option>
+          </select>
+        </fieldset>
+        <fieldset class="contenedor2">
+          <legend>Rellene las opciones siguientes</legend>
+
+          <label for="fec">Elija una fecha</label>
+          <input type="date" name="fecha" id="fec" />
+          <br />
+
+          <label for="fichero">Elija un fichero</label>
+          <input type="file" id="fichero" name="fichero" />
+          <br />
+
+          <select name="curso" size="4">
+            <option value="SMIR">SMIR</option>
+            <option value="ASIR">ASIR</option>
+            <option value="DAM">DAM</option>
+            <option value="DAW">DAW</option>
+          </select>
+        </fieldset>
+      </div>
+      <div class="hola">
+        <fieldset class="contenedor1">
+          <legend>Completar</legend>
+          <label for="col">Elija un color</label>
+          <input type="color" name="color" id="col" />
+          <br />
+
+          <textarea
+            name="text"
+            cols="50"
+            rows="10"
+            placeholder="Por favor, escriba aquí"
+          ></textarea>
+          <br />
+
+          <select name="lenguaje">
+            <option value="java">Java</option>
+            <option value="phyton">Phyton</option>
+            <option value="C++">C++</option>
+          </select>
+        </fieldset>
+        <fieldset class="contenedor2">
+          <legend>Rellene las opciones siguientes</legend>
+
+          <label for="fe">Elija una fecha</label>
+          <input type="date" name="fecha" id="fe" />
+          <br />
+
+          <label for="ficher">Elija un fichero</label>
+          <input type="file" id="ficher" name="fichero" />
+          <br />
+
+          <select name="curso" size="4">
+            <option value="SMIR">SMIR</option>
+            <option value="ASIR">ASIR</option>
+            <option value="DAM">DAM</option>
+            <option value="DAW">DAW</option>
+          </select>
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>

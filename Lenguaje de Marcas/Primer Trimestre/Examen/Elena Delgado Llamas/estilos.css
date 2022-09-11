@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+body {
+	font-family: 'Cairo', sans-serif;
+	background-color: #BCC2C2;
+	font-size: 1.3rem;
+}
+/*Elena Delgado Llamas*/
+h1{
+	background-color: #45B39D;
+	text-align: center;
+}
+img{
+	border: 6px outset #45B39D;
+	border-radius: 20px 0px 20px 0px;
+}
+.izq{
+	float: left;
+}
+.dere {
+	float: right;
+}
+h2{
+
+	clear: both;
+}
+.cita {
+	background-color: #E8E8E8;
+	border-bottom: 8px dotted #368C79;
+	border-right: 8px dotted #368C79;
+	text-align: center;
+	padding: 10px;
+}
+.enlaces a {
+	text-decoration: none;
+}
+.enlaces a:hover{
+	background-color: #98099A;
+	color: white;
+}
+#linea::first-line {
+	color: #2026DF;
+}
+.sub {
+	text-decoration: underline;
+}
+.color {
+	color: #D00B0b;
+	letter-spacing: 6px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ejercicio</title>
+    <meta name="author" content="Elena Delgado" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="estil.css" />
+  </head>
+  <body>
+    <h1>Formulario de inscripción</h1>
+    <form action="envia.php" method="get">
+
+      <div class="uno">
+          <div class="green">
+            <label for="em">Email</label>
+            <input
+              type="email"
+              name="correo"
+              id="em"
+              placeholder="Correo electrónico"
+            />
+    
+            <div class="margen">
+              <label for="contr">Contraseña
+              <input type="password" name="Contraseña" id="contr" maxlength="12" /></label>
+            </div>
+          </div>
+          <div class="coral">
+            <p>Seleccione los idiomas:</p>
+    
+            <div class="parte2">
+              <label for="in">Inglés</label>
+              <input type="checkbox" name="ingles" id="in" value="Inglés" />
+            </div>
+            <div class="parte2">
+              <label for="ale">Aleman</label>
+              <input type="checkbox" name="aleman" id="ale" value="Aleman" />
+            </div>
+            <div class="parte2">
+              <label for="chi">Chino</label>
+              <input type="checkbox" name="chino" id="chi" value="Chino" />
+            </div>
+          </div>
+      </div>
+      <div class="botones">
+        <input
+          type="submit"
+          name="enviar"
+          value="Enviar datos"
+          class="formato"
+        />
+        <input
+          type="submit"
+          name="borrar"
+          value="Borrar datos"
+          class="formato"
+        />
+      </div>
+    </form>
+  </body>
+</html>

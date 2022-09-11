@@ -1,0 +1,143 @@
+/*Elena Delgado Llamas*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #d6eaf8;
+  font-size: 1.2rem;
+}
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+.politica {
+  color: #2352a0;
+}
+h2 {
+  background-color: #2352a0;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.datosPersonales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.datosPersonales input {
+  border: none;
+  margin: 10px;
+}
+.asterisco {
+  color: #95090b;
+}
+.datosPersonales input:focus {
+  outline: 3px solid #ff5733;
+}
+.actividades {
+  margin-top: 15px;
+}
+.actividades p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.interesado {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.interesado div,
+.dificultad label {
+  margin-bottom: 10px;
+}
+.dificultad {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+.botones button {
+  margin-left: 20px;
+  transition: background-color 1s ease 0.5s;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 12px;
+  text-transform: uppercase;
+  border-bottom: 5px solid orange;
+}
+.boton1:hover {
+  background-color: #5038a8;
+  transition: background-color 1s ease 0.5s;
+}
+.boton2:hover {
+  background-color: #a8261f;
+  transition: background-color 1s ease 0.5s;
+}
+input {
+  padding: 10px;
+}
+p {
+  margin: 0px;
+}
+.condiciones {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+@media screen and (min-width: 1024px) {
+  h2 {
+    background-color: #733d8a;
+  }
+  .rojo {
+    color: red;
+    font-weight: 200;
+  }
+  .separate {
+    margin: 10px;
+  }
+  .datosPersonales {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .interesado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .visitas {
+    order: -1;
+  }
+  .blue {
+    border-bottom: 3px solid white;
+    color: blue;
+  }
+  .dificultad {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    transition: background-color 1s ease 0.5s;
+  }
+  .blue {
+    color: blue;
+  }
+  .politica {
+    text-decoration: underline;
+  }
+}

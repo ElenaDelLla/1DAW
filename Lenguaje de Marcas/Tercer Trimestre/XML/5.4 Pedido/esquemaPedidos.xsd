@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <xs:element name="pedido" type="tipoPedido"></xs:element>
+
+    <xs:complexType name="tipoPedido"> 
+        <xs:sequence>
+            <xs:element name="producto" type="tipoProducto" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoProducto">
+        <xs:choice>
+            <xs:element name="cuaderno" type="tipoCuaderno" minOccurs="0" maxOccurs="1"></xs:element>
+            <xs:element name="lápiz" type="tipoLapiz" minOccurs="0" maxOccurs="1"></xs:element>
+            <xs:element name="libro" type="tipoLibro" minOccurs="0" maxOccurs="1"></xs:element>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="tipoCuaderno">
+        <xs:attribute name="num_hojas" type="xs:integer" use="optional">
+        </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="tipoLapiz">
+        <xs:attribute name="numero" type="xs:integer" use="required"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="tipoLibro">
+        <xs:attribute name="titulo" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+
+</xs:schema>

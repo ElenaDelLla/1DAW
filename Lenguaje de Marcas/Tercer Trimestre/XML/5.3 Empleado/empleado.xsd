@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="empleado">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="nombre">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="código" type = "xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="puesto" type="xs:string"/>
+            <xs:element name="extensión" type="xs:integer"/>
+       </xs:sequence>
+    </xs:complexType> 
+</xs:element>
+</xs:schema>

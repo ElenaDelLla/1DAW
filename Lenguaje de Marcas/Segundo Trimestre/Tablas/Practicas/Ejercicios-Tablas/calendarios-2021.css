@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@300&display=swap');
+
+body{
+	font-family: 'M PLUS 2', sans-serif;
+	background-color: #7BBFE8;
+
+}
+h1{
+	
+	font-weight: bold;
+}
+.enero th,
+.enero caption{
+	font-weight: bold;
+}
+.enero {
+	background-color: #FFF8E1;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.enero table, 
+.febrero table,
+.marzo table{
+
+	margin-right: auto;
+	margin-left: auto;
+}
+.enero table,
+.enero td,
+.enero th{
+	border-bottom: 1px solid grey ;
+	border-collapse: collapse;
+}
+.enero th {
+	text-align: left
+}
+.enero td{
+	width: 50px;
+}
+
+.febrero {
+	background-color: #FFF8E1;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.febrero table{
+	border-spacing: 0px;
+}
+.febrero caption,
+.febrero th{
+	font-weight: bold;
+}
+.febrero caption,
+.febrero th,
+.febrero td{
+	text-align: right;
+}
+.febrero td{
+	width: 50px;
+}
+.febrero td,
+.febrero th{
+	border-right: 1px solid grey;
+	border-collapse: collapse;
+}
+.marzo{
+	background-color: #FFF8E1;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.marzo table,
+.marzo th,
+.marzo td{
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+.marzo td{
+	width: 50px;
+	height: 50px;
+	font-size: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+.marzo caption{
+	text-align: left;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

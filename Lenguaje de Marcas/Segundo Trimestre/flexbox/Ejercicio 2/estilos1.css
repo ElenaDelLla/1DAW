@@ -1,0 +1,26 @@
+
+
+body{
+	background-color: grey;
+}
+.color{
+	background-color: #C2C2C2;
+	border: 80px solid white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+a{
+	text-decoration: none;
+}
+li:hover{
+	background-color: #F4B25C;
+
+}
+li {
+	list-style: none;
+	
+
+	padding: 15px;
+}

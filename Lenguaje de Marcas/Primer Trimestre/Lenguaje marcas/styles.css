@@ -1,0 +1,63 @@
+body {
+  background-color: lightblue;
+  /* Cambiamos por la fuente utilizada */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Quitamos subrayado a los enlaces de la lista*/
+li a {
+  text-decoration: none;
+}
+
+/* centramos texto de h1*/
+h1 {
+  text-align: center;
+}
+
+/* flotamos a izquierda la imagen y ponemos
+ el margen derecho para que se separe el texto,
+  margen abajo para separar, ponemos borde*/
+img {
+  float: left;
+  border: 20px groove violet;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* ponemos clear al h2 para que se caiga abajo*/
+h2 {
+  clear: both;
+}
+/* ponemos subrayado amarillo a los dos span 
+que deben estar subrayados*/
+.subrayado_amarillo {
+  background-color: yellow;
+}
+/* subrayamos el texto correspondiente*/
+.subrayado {
+  text-decoration: underline;
+}
+
+/* Seleccionamos primera linea de segundo parrafo y 
+la ponemos en mayuscula y en rojo*/
+.segundo_parrafo::first-line {
+  text-transform: uppercase;
+  color: red;
+}
+
+/* ponemos el h2 con el fondo verde, texto blanco,
+ y ponemos el padding para separar el contenido del borde */
+h2 {
+  background-color: darkgreen;
+  color: white;
+  padding: 8px;
+}
+
+.fondo_azul {
+  background-color: white;
+  text-align: right;
+  padding: 10px;
+  border-top: 5px dotted lightblue;
+  border-left: 5px dotted lightblue;
+}

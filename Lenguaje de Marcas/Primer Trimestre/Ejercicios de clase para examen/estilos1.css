@@ -1,0 +1,24 @@
+h1{
+	background-color: hsla(308, 42%, 39%, 0.22);
+	text-align: center;
+}
+/*a:hover{
+	background-color: hsla(308, 42%, 39%, 0.7);
+	color: white;
+}*/
+.primeraletra::first-letter{
+	color: red;
+	size: 2rem;
+}
+.mayus::first-line{
+	color: darkred;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+p a:hover{
+	background-color: hsla(308, 42%, 39%, 0.7);
+	color: white;
+}
+a:active {
+	border: 50px solid greenyellow;
+}

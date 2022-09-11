@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="pedido">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="producto" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:choice>
+                            <xs:element name="cuaderno">
+                                <xs:complexType>
+                                    <xs:attribute name="num_hojas" type="xs:int" use="optional"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="lápiz" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence minOccurs="1" maxOccurs="1">
+                                        <xs:element name="numero" use= "optional">
+                                        <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                            <xs:minInclusive value="100"></xs:minInclusive>
+                                            <xs:maxInclusive value="250"></xs:maxInclusive>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                        
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element> 
+                            <xs:element name="libro">
+                                <xs:complexType>
+                                    <xs:attribute name="titulo" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

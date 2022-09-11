@@ -1,0 +1,70 @@
+/* Estilos para todos los encabezados h2*/
+
+
+h2{
+
+	background-color:orange;
+
+}
+
+/*Algun párrafo de pagina, pero no todos - uso selector de clase para agrupar.Examen */
+/*Para todos los elementos que tienen un atributo class con valor ami*/
+.ami{
+
+	text-align:center;
+	margin-left:20px;
+	color:#ee12bb;
+
+}
+.blanco{
+
+	text-decoration: underline;
+}
+.negro{
+	color: darkblue;
+	text-shadow: black;
+	border: 2px solid blue;
+}
+
+/*selector descendiente*/
+p strong span{
+	color: violet;
+}
+
+p span{
+	color: green;
+}
+/*selector descendiente*/
+p a{
+	text-decoration: none;
+	letter-spacing: 8px;
+
+}
+p b {
+	text-decoration: underline;
+}
+#odisea{
+	background-color:rgba(216, 247, 194,0.5); 
+}
+/*selector adyacente se aplica justo 
+a continuación de otro*/
+p + h3 {
+	color: gold;
+}
+/*selector de hijo*/
+p > span {
+	background-color: darkred;
+	front-style: italic;
+}
+/*decendiente*/
+#tres  p {
+	color: red;
+}
+/*hijo directo*/
+#tres > p{
+	color: red;
+}
+
+
+
+

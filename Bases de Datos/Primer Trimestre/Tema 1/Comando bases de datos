@@ -1,0 +1,2 @@
+SELECT Name,Population FROM city WHERE CountryCode="ESP"; Muestra el nombre y la población de España.
+SELECT Name,Population FROM city WHERE Name IN ("Madrid" , "Paris" , "London" , "Berlin");  Muestra el nombre y la población de las ciudades que quiero.

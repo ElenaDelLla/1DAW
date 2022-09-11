@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+body {
+	font-family: 'Zen Kurenaido', sans-serif;
+	font-size: 1.4rem;
+	line-height: 2;
+	background-image: url(fondo_eureka.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+
+}
+h1 {
+	text-align: center;
+}
+
+h1::first-letter {
+	color: red;
+}
+.cuadrado{
+	background-color: #9CD9E0;
+	border: 20px outset #F7DC6F;
+	width: 50%;
+}
+.mayus {
+	text-transform: uppercase;
+}
+.cuadrado a {
+	text-decoration: none;
+}
+.cuadrado a:hover{
+	outline: 10px dotted red;
+	background-color:#98CE9C ;
+}
+.verde {
+	background-color: #98CE9C;
+	width: 70%;
+}
+img {
+	border-radius: 20px 40px 20px 40px;
+	float: left;
+}
+#clear {
+	clear: both;
+	
+}
+.rosa {
+	color: #CE98CA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

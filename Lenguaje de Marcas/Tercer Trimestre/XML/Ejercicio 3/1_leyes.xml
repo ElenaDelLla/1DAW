@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilo_1.css" type="text/css"?>
+<leyes xmlns="http://www.w3.org/1999/xhtml">
+  <titulo>Humor</titulo>
+  <murphy>
+    <tipo>Leyes de Murphy</tipo>
+    <ley class="amarillo">Si algo puede fallar, fallará. </ley>
+    <ley class="diferente">Si algo no puede fallar, lo hará a pesar de todo.</ley>
+    <ley >Si algo parece que va bien, es obvio que se ha pasado algo por alto.</ley>
+  </murphy>
+  <ginsgberg>
+    <tipo>Teoremas de Ginsgberg</tipo>
+    <ley >No puedes ganar.</ley>
+    <ley class ="diferente">No puedes desempatar.</ley>
+    <ley>Y tampoco puedes abandonar el juego.</ley>
+  </ginsgberg>
+  <otras>
+    <tipo >Otras</tipo>
+    <ley >Da igual por donde abras la caja de un medicamento. Siempre te molestará el prospecto.</ley>
+    <ley class="diferente">Llegarás al teléfono justo a tiempo para oír como cuelgan.</ley>
+    <ley >Nunca necesitarás nada que guardes por si lo necesitas.</ley>
+    <ley >Los problemas nacen, crecen, se multiplican y permanecen.</ley>
+  </otras>
+</leyes>

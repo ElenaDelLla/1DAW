@@ -1,0 +1,29 @@
+form {
+  background-color: #B2CCFF;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+form > * {
+  margin-top: 10px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.negri{
+    font-weight: bold;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+span {
+  text-align: right;
+}

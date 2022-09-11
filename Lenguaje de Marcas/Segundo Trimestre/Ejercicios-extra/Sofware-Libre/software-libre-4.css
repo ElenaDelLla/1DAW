@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Open+Sans&display=swap');
+
+html{
+	background-color: #E0E1EB;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
+
+}
+h1, h2{
+	background-color: #31334D;
+	color: white;
+	text-align: center;
+
+}
+h3{
+	background-color: #2CAB32;
+	padding: 5px;
+	border-radius: 20px 20px 0px 0px;  
+}
+p{
+	margin: 5px;
+}
+
+article{
+	background-color: white;
+	border-radius: 20px;
+}
+section{
+	padding: 0px 20px;
+}
+
+@media screen and (min-width: 799px) {
+	main{
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	section{
+		border-right: 2px solid blue;
+		border-left: 2px solid blue;
+		margin: 0px 20px;
+	}
+}

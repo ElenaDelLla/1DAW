@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+
+body {
+	margin: 100px;
+}
+
+h1 {
+	letter-spacing: 5px;
+	color: coral;
+	text-align: center;
+}
+h2{
+	font-family: 'Mochiy Pop One', sans-serif;
+	background-color: hsl(122, 37%, 84%);
+	text-align: center;
+	clear: both;
+}
+p {
+	font-family: 'Red Hat Mono', monospace;
+	clear: both;
+}
+.flotanted {
+	float: right;
+	border: 10px dashed coral;
+}
+.flotantei {
+	float: left;
+	border-radius: 100%;
+	border: 10px dotted chocolate;
+}
+.centrado  {
+	text-align: center;
+}
+.centrada {
+	border-top: 2px;
+	border-right: 6px;
+	border-bottom: 2px;
+	border-left: 6px;
+	border: 10px double darkgoldenrod;
+}
+img {
+	padding: 20px;
+	margin: 10px;
+}
+
+

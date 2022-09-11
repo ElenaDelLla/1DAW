@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="bibliotecaMusical" type="bibliotecaTipo"></xs:element>
+
+    <xs:complexType name="bibliotecaTipo">
+        <xs:sequence>
+            <xs:element name="partitura" type="tipoPartitura" maxOccurs="unbounded" minOccurs="1"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPartitura">
+        <xs:sequence>
+            <xs:element name="titulo" type="xs:string"></xs:element>
+            <xs:element name="compositor" type="compositorTipo"></xs:element>
+            <xs:element name="instrumento" type="instrumentoTipo"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="identificacion" use="required">
+                <xs:simpleType>
+                    <xs:restriction base= "xs:string">
+                        <xs:pattern value="[A-Z][A-Z][0-9][0-9][0-9]"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="compositorTipo">
+        <xs:sequence>
+            <xs:element name="nombre" maxOccurs="1" ></xs:element>
+        </xs:sequence>
+        <xs:attribute name="nacionalidad" type="nacionalidadTipo"></xs:attribute>
+        <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:simpleType name="nacionalidadTipo">
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="es"></xs:enumeration>
+                    <xs:enumeration value="ing"></xs:enumeration>
+                    <xs:enumeration value="al"></xs:enumeration>
+                </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="instrumentoTipo">
+        <xs:attribute name="dificultad">
+            <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                    <xs:pattern value="[1-6]"></xs:pattern>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+    </xs:complexType>
+</xs:schema>

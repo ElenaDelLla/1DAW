@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Corrige los errores para que el documento XML esté BIEN FORMADO -->
+<ficha>
+	<empresa>Toledo &amp; KuryLenko, S.L</empresa>
+	<eslogan mensaje="Vendemos sueños imposibles" />
+</ficha>

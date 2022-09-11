@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!--Agenda de teléfonos sin modificadores-->
+
+<Agenda>
+    <nombre>Lourdes</nombre>
+    <apellido1>Martin</apellido1>
+    <direccion>
+        <calle>San Diego</calle>
+        <numero>69</numero>
+        <codigoPostal>999999</codigoPostal>
+        <provincia>Burgos</provincia>
+    </direccion>
+    <telefonos>
+        <casa>123425677</casa>
+        <movil>623096548</movil>
+        <trabajo>34567974</trabajo>
+    </telefonos>
+</Agenda>
+

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+	outline: 5px solid darkred;
+	background-color: hsla(168, 27%, 71%, 0.7);
+	border-radius:10px ;
+}
+a:active{
+	font-size:2rem ;
+	color: red;
+}
+a:visited{
+	color: skyblue;
+}
+body h1:first-child {
+	letter-spacing: 4px;
+	text-align: center;
+	color:red;
+	background-color: gold;
+}
+/*.enlace:hover {
+	border:3px dotted red;
+}*/
+/*Ejemplos de pseudo-elemntos*/
+/*Estilo par ala primera letra de ls parrafos que pertenecen a
+la clase letter*/
+p::first-letter {
+	font-size: 3rem;
+	color: orange;
+}
+.letter::first-letter {
+	font-size:4rem ;
+	color: green;
+
+}
+.mayusculas::first-letter{
+	text-transform: uppercase;
+	color: violet;
+	font-weight: bold;
+}
+.antes::before {
+	content: "Esto es muy fácil ";
+	color: greenyellow;
+}
+.antes::after {
+	content: "******";
+	color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

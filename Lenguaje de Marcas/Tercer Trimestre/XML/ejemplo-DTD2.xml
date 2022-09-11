@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email SYSTEM "file.dtd">
+
+<email>
+    <de>Jorge</de>
+    <para>Bea</para>
+    <asunto>Fiesta el viernes</asunto>
+    <cuerpo>Recuerda que el viernes no hay clase!</cuerpo>
+</email>

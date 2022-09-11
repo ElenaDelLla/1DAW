@@ -1,0 +1,86 @@
+.asterix {
+	border:15px solid #B2BABB;
+	width:100px;
+	height:100px;
+	margin:20px auto;
+}
+
+#uno {background-color:#E1BEE7;
+	width: 100px;
+	transition: background-color 4s, width 2s;
+
+}
+#uno:hover{
+	background-color: white;
+	width: 300px;
+
+	transition: background-color 4s cubic-bezier(.49,.42,.93,.27), width 2s;
+	/*transition-property: background-color;
+	transition-duration: 3s;
+	transition-timing-function: ease-in;
+	transition-delay: 1s;*/
+
+	}
+
+@keyframes cambiaColor {
+	0% {
+		background-color: red;
+		border-style: dotted;
+	}
+	50%{
+		background-color: gold;
+		border-style: dashed;
+	}
+	100% {
+		background-color: lavender;
+		border-style: dotted;
+	}
+}
+
+#dos {background-color:#81D4FA;
+
+	animation: cambiaColor 1s infinite;
+	/*animation-name: cambiaColor;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: 3;*/
+
+}
+
+
+#tres {background-color:#B2DFDB;
+
+	transform: translate(100px, 100px) scale(0.7) rotate(45deg);
+}
+@keyframes animaciones{
+
+	0%{
+		background-color: lavender;
+		transform: rotate(180deg) scale(0.5) translate(10px, 100px) skewX(50deg);
+	}
+	50%{
+		background-color: red;
+		transform: rotate(180deg) scale(1) translate(20px) skewX(50deg);
+	}
+	100%{
+		background-color: lavender;
+		transform: rotate(180deg) scale(0.5) translate(20px, 100px) skewX(50deg);
+	}
+
+}
+#cuatro {background-color:#FFCC80;
+
+	animation: animaciones 2s infinite;
+	
+}
+
+#a {display:flex;}
+
+
+
+
+
+
+
+
+

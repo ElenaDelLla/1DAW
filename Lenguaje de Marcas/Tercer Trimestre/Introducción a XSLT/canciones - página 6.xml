@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='página 6.xml'?>
+<MisCancionesPreferidas>
+  <archivo>
+    <canción>Hangar 18</canción>
+    <artista>Megadeth</artista>
+    <disco>Rust in Peace</disco>
+    </archivo>
+  <archivo>
+    <canción>Peace Sells</canción>
+    <artista>Megadeth</artista>
+    <disco>Peace Sells...But Who's Buying</disco>
+    </archivo>
+  <archivo>
+    <canción>Master of Puppets</canción>
+    <artista>Metallica</artista>
+    <disco>Master of Puppets</disco>
+    </archivo>
+  <archivo>
+    <canción>Among The Living</canción>
+    <artista>Anthrax</artista>
+    <disco>Among The Living</disco>
+    </archivo>  
+   <archivo>
+    <canción>For Whom The Bell Tolls</canción>
+    <artista>Metallica</artista>
+    <disco>Ride The Lightning</disco>
+  </archivo>  
+</MisCancionesPreferidas>

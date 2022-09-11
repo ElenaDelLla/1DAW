@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Elena Delgado" />
+    <meta name="keywords" content="Ejercicio, mediaQueries, flexbox" />
+    <meta name="description" content="Ejercicio de clase" />
+    <link rel="stylesheet" href="estilos1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="envia.php" method="post">
+      <h1>Registrar</h1>
+      <div>
+        <label for="no">Nombre</label>
+        <input
+          type="text"
+          name="Nombre"
+          placeholder="Lionel"
+          id="no"
+          required
+        />
+
+        <label for="ap">Apellido</label>
+        <input
+          type="text"
+          name="apellido"
+          placeholder="Messi"
+          id="ap"
+          required
+        />
+      </div>
+      <div>
+        <label for="ho">Hombre</label>
+        <input type="radio" name="sexo" value="hombre" id="ho" />
+
+        <label for="mu">Mujer</label>
+        <input type="radio" name="sexo" value="Mujer" id="mu" />
+
+        <label for="ot">Otro</label>
+        <input type="radio" name="sexo" value="Otro" />
+      </div>
+      <div>
+        <label for="em">Email</label>
+        <input
+          type="email"
+          name="correo"
+          placeholder="tu email"
+          id="em"
+          required
+        />
+
+        <label for="con">Contraseña</label>
+        <input type="password" name="contraseña" id="con" required />
+      </div>
+      <div>
+        <label for="cum">Cumpleaños</label>
+        <select name="dia" id="cum" required>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <select name="mes" id="me" required>
+          <option value="enero">Enero</option>
+          <option value="febrero">Febrero</option>
+          <option value="marzo">Marzo</option>
+          <option value="abril">Abril</option>
+          <option value="mayo">Mayo</option>
+          <option value="junio">Junio</option>
+          <option value="julio">Julio</option>
+          <option value="agosto">Agosto</option>
+          <option value="septiembre">Septiembre</option>
+          <option value="octube">Octubre</option>
+          <option value="novienbre">Noviembre</option>
+          <option value="diciembre">Diciembre</option>
+        </select>
+        <select name="ano" id="ano" required>
+          <option value="">1900</option>
+        </select>
+      </div>
+      <div>
+        <label for="termycon">Acepto los términos y condiciones</label>
+        <input type="checkbox" name="terminos" required id="termycon" />
+      </div>
+      <div>
+        <input type="submit" name="Enviar" />
+      </div>
+    </form>
+  </body>
+</html>

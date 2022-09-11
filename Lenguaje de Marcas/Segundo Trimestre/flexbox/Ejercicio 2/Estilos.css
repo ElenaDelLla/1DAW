@@ -1,0 +1,29 @@
+html{
+	background-color: grey;
+}
+
+ul{
+	    padding-inline-start: 0px;
+}
+.color{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: left;
+	background-color: #C2C2C2;
+	border-left: 50px solid white;
+	border-right: 10px solid white;
+	border-top: 15px solid white;
+	border-bottom: 15px solid white;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+	line-height: 50px;
+	padding-left: 10px;
+}
+li:hover{
+	background-color: #F4B25C;
+}

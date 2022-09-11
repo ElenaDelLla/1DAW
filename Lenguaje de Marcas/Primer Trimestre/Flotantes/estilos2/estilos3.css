@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Qahiri&display=swap');
+/*elemento flotante*/
+body {
+	font-size: 30px;
+}
+img {
+	float: center;
+}
+.izq {
+	float: left;
+}
+.der{
+	float: right;
+}
+/*No admite elementos flotantes a su alrededor(solo a la derecha rigth, 
+solo a la izquierda left o en ambos both)*/
+
+h2{
+	clear: both;
+	/*font-family: 'Comic sans MS', sans-serif;/*hay que tener instalada la fuente*/
+	/*utilizar fuentes de Google*/
+	font-family: 'Qahiri', sans-serif;
+
+}
+p{
+	font-family: 'Festive', cursive;
+}
+
+.cent{
+	text-align: center;
+}
+img {
+	padding: 10px;
+	margin: 10px;
+	border-left: 4px dotted orangered;
+	border-right: 4px solid gold;
+	border-bottom: 4px dotted blue;
+	border-top: 4px inset; orange;
+	border-radius: 100px 30px; /*border-radius: 50%;  
+	border-radius: 100px 30 10 120; , border-top-radius: 100px*/
+
+/*
+.flota p {
+	border:3px solid blue;
+	width: 20%;
+	float: left;
+	margin: 5px;
+}
+*/
+/*centrar imagenes examen*/
+
+
+
+
+
+
+
+
+
+
+

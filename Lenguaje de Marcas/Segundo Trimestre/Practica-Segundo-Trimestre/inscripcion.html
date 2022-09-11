@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ES">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Elena Delgado" />
+    <meta
+      name="keywords"
+      content="ovillos, lana, agujas, tejidos, bolsas de proyecto, diy"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale01.0" />
+    <meta name="description" content="Pagina Web" />
+    <title>Tejiendome la vida</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Tejiéndome la vida</h1>
+    </header>
+    <main>
+      <div class="contenedorFormulario">
+        <form action="inscripcion.php" method="post">
+          <h2>Formulario de inscripción a cursos</h2>
+          <div class="datosPersonales">
+            <h3>Datos personales:</h3>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required />
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="checkboxCursos">
+            <h3>Curso en el que quieres inscribirte</h3>
+            <label
+              ><input type="checkbox" name="cursoChaleco" />Curso Chaleco Folk
+              sp
+            </label>
+            <label
+              ><input type="checkbox" name="cursoMochila" />Curso Mochila
+              Vintage
+            </label>
+          </div>
+          <div class="datosTarjeta">
+            <h3>Datos de pago:</h3>
+            <label
+              >Número tarjeta
+              <input
+                type="number"
+                name="numeroTarjeta"
+                required
+            /></label>
+            <label
+              >Fecha caducidad <input type="date" name="caducidad" required
+            /></label>
+            <label
+              >CVV <input type="number" name="cvv" placeholder="000" min="0"
+              max="999" required></label
+            >
+          </div>
+          <div class="botones">
+            <button type="reset">BORRAR DATOS</button>
+            <button type="submit">CONFIRMAR INSCRIPCIÓN</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

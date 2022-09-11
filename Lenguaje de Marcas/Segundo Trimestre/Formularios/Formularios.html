@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content = "Elena Delgado">
+	<meta name="keywords" content = "Formularios, ejercios, clase">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Ejercicios de clase de Formularios">
+	<title>Ejercicios formularios</title>
+	<style>
+		input:focus, textarea:focus {
+			background-color: rgba(22, 133, 222, 0.3);
+		}
+		input:checked {
+			outline: 2px dotted coral;
+		}
+		
+		input [type="radio"]:checked{
+			outline: 4px dotted black;
+		}
+
+	</style>
+
+</head>
+<body>
+	<form action="procesa.php" method="get">
+		<label for="ed">Edad:</label>
+		<br>
+		<input type="number" name="edad" min="0" max="120" id="ed" required />
+		
+		<input type="submit" value="Enviar"/>
+		<br>
+		<label for="No">Nombre</label>
+		<br>
+		<input type="text" name="Nombre" id="No" required>
+
+		<br>
+		<label for="CO">Contraseña</label>
+		<br>
+		<input type="password" name="Contraseña" id="CO" required>
+		<br>
+		<input type="submit" name="Enviar">
+
+		<h3>Selecciona una opción</h3>
+
+		
+		<input type="radio" name="Turnos" id="TA1" value="tarde">
+		<label for="TA1">Tarde</label>
+		<br>
+		<br>
+		<input type="radio" name="Turnos" id="MA" value="mañana">
+		<label for="MA">Mañana</label>
+		<br>
+		<br>
+		<input type="submit" name="Enviar">
+
+
+		<p>Elige tus deportes favositos</p>
+
+		<fieldset>
+			<legend>Elige tus deportes</legend>
+		<input type="checkbox" name="Deportes" id="F" value="Futbol">
+		<label for="F">Futbol</label>
+		<br>
+		<input type="checkbox" name="deporte" id="N" value="Natación">
+		<label for="N">Natación</label>
+		<br>
+		<input type="checkbox" name="desporte1" id="T" value="Tenis">
+		<label for="T">Tenis</label>
+		<br>
+		<input type="checkbox" name="deporte2" id="P" value="Padel">
+
+		<label for="P">Padel</label>
+		<br>
+		<br>
+		<input type="submit" name="Enviar">
+		<input type="reset" value="Borrar datos">
+		</fieldset>
+		<br>
+		<br>
+		<label for="tex">Escribe tus comentarios</label>
+		<br>
+		<textarea name="ejemplo tex-area" id="tex" rows="10" cols="100" placeholder="Escibe tu texto"></textarea>
+		<br>
+		<br>
+		<input type="submit" name="Enviar">
+		<input type="reset" value="Borrar datos">
+		<br>
+		<br>
+		<label for="ciu">Elige tu ciudad</label>
+		<br>
+		<br>
+		<select name="ciudad" id="ciu">
+		
+		<optgroup label="Andalucia">
+		<option>Granada</option>
+		<option>Sevilla</option>
+		<option>Huelva</option>
+		<option>Jaen</option>
+		<option>Córdoba</option>	
+		</optgroup>
+		<optgroup label="Castilla y León">
+		<option>Valladolid</option>
+		<option>León</option>
+		<option>Zamora</option>
+		</optgroup>
+		</select>
+		<br>
+		<br>
+		<input type="submit" name="Enviar">
+		<input type="reset" value="Borrar datos">
+
+
+	</form>
+
+</body>
+</html>

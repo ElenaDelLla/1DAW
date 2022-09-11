@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+html {
+	background-image: url(arbol.png);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+body {
+	font-family: 'Caveat', cursive;
+	line-height: 2;
+}
+p {
+	font-size: 1.4rem;
+	border-image: url(https://i.imgur.com/YC5PUl6.png) 23% 1 0 round;
+}
+div {
+	border: 20px inset blueviolet;
+}
+ul {
+	list-style-type: circle;
+}

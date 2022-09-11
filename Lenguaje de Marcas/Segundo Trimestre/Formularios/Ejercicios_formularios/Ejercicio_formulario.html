@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio de clase</title>
+	<meta name="author" content = "Elena Delgado">
+	<meta name="keywords" content = "Ejercicio,formulario">
+	<meta name="description" content="Ejercicios de formularios de clase para practicar">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+<body>
+	<header>
+		<a href="https://www.w3schools.com/"><img src="w3schools.png" alt="logo W3Schools"></a>
+
+	<h1>Formulario HTML</h1>
+	</header>
+	<main>
+	<form action="procesa.php" method="post" class="gris">
+		<fieldset>
+			<legend>Datos de contacto</legend>
+		<label for="No" class="color">Nombre</label>
+			<input type="text" name="Nombre" id="No" required>
+		
+		<br>
+		
+		<label for="Si" class="color">Primer apellido</label>
+			<input type="text" name="Primer apellido" id="Si" size="50" required>
+		
+		<label for="Co" class="color">Segundo apellido</label>
+			<input type="text" name="Segundo apellido" id="Co" size="50" required>
+		
+		<br>
+		
+		<label for="Ca">Calle, número, piso...</label>
+			<input type="text" name="Calle,número,piso..." size="50" id="Ca" placeholder="Dirección (Calle, número, piso)">
+		
+		<br>
+		
+
+		<label for="ciu">Provincia</label>
+			<select name="Provincias" id="ciu">
+				
+				<option>Madrid</option>
+				<option>Sevilla</option>
+				<option>Barcelona</option>
+				<option>Oviedo</option>
+				<option>Granada</option>
+				<option>Jaén</option>
+			</select>
+			<br>
+			
+		<label for="Bo" class="color">Email</label>
+			<input type="email" name="Email" id="Bo" placeholder="Correo electrónico" required>
+		
+		<br>
+		
+		<label for="Te">Teléfono</label>
+		<input type="number" name="telefono" id="Te">
+		<br>
+		
+		<label for="COM">Fecha de nacimiento</label>
+			<input type="date" name="Fecha de nacimiento" id="COM" >
+		</fieldset>
+		<br>
+		
+		
+		<p class="color2">Carnet de conducir:</p>
+		<br>
+		
+		<input type="radio" name="carnet" id="ip" class="margen">
+		
+		<label for="ip">Sí</label>
+		<br>
+		
+		<input type="radio" name="carnet" id="op">
+		
+		<label for="op">No</label>
+		<br>
+		
+
+		<p class="color2">Desea recibir información sobre:</p>
+		<br>
+		
+		<input type="checkbox" name="Cursos formativos" id="che">
+		<label for="che" class="margen">Cursos formativos</label>
+		<br>
+		
+		<input type="checkbox" name="Publicaciones" id="ch">
+		<label for="ch">Publicaciones</label>
+		<br>
+		
+		<input type="checkbox" name="Noticias" id="chec">
+		<label for="chec">Noticias</label>
+		
+		<br>
+		
+		<div class="contenedor">
+		<input class="boton" id="boton" type="submit" value="Enviar"/>
+		<input class="boton" id="boton2" type="submit" value="Continuar"/>
+		</div>
+	</form>
+	</main>
+<br>
+
+<footer>Elena Delgado Llamas</footer>
+</body>
+</html>

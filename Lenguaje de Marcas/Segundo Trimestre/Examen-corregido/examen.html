@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Examen segunda evaluación</title>
+    <meta name="author" content="Elena Delgado" />
+    <meta
+      name="keywords"
+      content="Examen, segunda evaluación, formularios, flexbox, media queries"
+    />
+    <meta name="description" content="Examen segunda evaluación práctico" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+  </head>
+  <body>
+    <div class="formulario">
+      <form action="envia.php" method="GET">
+        <h2>Bienvenid@, inscríbete...</h2>
+
+        <div class="datosPersonales">
+          <label for="name">Nombre <span class="asterisco">*</span></label>
+          <input type="text" name="name" id="name" required class="asterisco" />
+          <label for="email">E-mail <span class="asterisco">*</span></label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Introduzca su email"
+            required
+            class="asterisco"
+          />
+          <label for="phone">Teléfono</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Móvil"
+            class="asterisco"
+          />
+        </div>
+        <fieldset class="actividades">
+          <legend>Detalles</legend>
+          <p class="blue">Interesado en:</p>
+          <div class="interesado">
+            <div>
+              <input type="checkbox" name="parque" id="par" value="parque" />
+              <label for="par">Parques naturales.</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="trekking"
+                id="trekking"
+                value="trekking"
+              />
+              <label for="trekking">Trekking y montañismo.</label>
+            </div>
+            <div class="visitas">
+              <input
+                type="checkbox"
+                name="parque"
+                id="parque"
+                value="visitas"
+              />
+              <label for="parque" class="rojo">Visitas guiadas.</label>
+            </div>
+          </div>
+
+          <p>Nivel de dicicultad:</p>
+          <div class="dificultad">
+            <label>
+              <input type="radio" name="dificultad" value="medio" checked />
+              Medio
+            </label>
+            <label>
+              <input type="radio" name="dificultad" value="alto" /> Alto
+            </label>
+          </div>
+        </fieldset>
+        <div class="condiciones">
+          <input
+            type="checkbox"
+            required
+            name="condiciones"
+            value="condiciones"
+            id="condiciones"
+          />
+          <label for="condiciones"
+            ><span class="asterisco">*</span> He leído y acepto
+            <span class="politica">la política de privacidad</span></label
+          >
+        </div>
+        <div class="botones">
+          <button class="boton1" type="reset">borrar</button>
+          <button class="boton2" type="submit">¡Participa!</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

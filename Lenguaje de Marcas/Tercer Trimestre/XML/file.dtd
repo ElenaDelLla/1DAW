@@ -1,0 +1,5 @@
+<!ELEMENT email (de,para,asunto,cuerpo)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>

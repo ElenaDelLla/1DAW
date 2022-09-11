@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<equipos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejemplo2.xsd">
+<equipo nombreEq="Estudiantes">
+<jugadores>
+<jugador numero="12">
+<nombre>Pedro</nombre>
+<fechaNacimiento>12-12-1987</fechaNacimiento>
+<altura>187</altura>
+</jugador>
+<jugador numero="17">
+<nombre>Roberto</nombre>
+<fechaNacimiento>10-02-1985</fechaNacimiento>
+<altura>183</altura>
+</jugador>
+</jugadores>
+</equipo>
+</equipos>
